@@ -5,3 +5,4 @@ data_transients/outage_wind_trajectories.gif
 data_transients/trajectory_build.gif
 data_raw/ibtracs_conus_subset.csv
 python_scripts/cache
+data_transients/deprecated
