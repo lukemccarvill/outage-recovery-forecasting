@@ -6,3 +6,5 @@ data_transients/trajectory_build.gif
 data_raw/ibtracs_conus_subset.csv
 python_scripts/cache
 data_transients/deprecated
+data_raw/POUS.csv
+data_raw/toy_tft_florida_event_weather_era5_hourly.csv
