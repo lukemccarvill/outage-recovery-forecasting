@@ -1,16 +1,7 @@
 # Outage Recovery Forecasting
 
-Work-in-progress repo for a 10-week project on predicting electricity outage recovery after storms.
+This project pulled together a clean CONUS outage-recovery dataset, explored storm and county patterns, and built a few baseline models and report figures. The main notebook now also saves and reuses RF/XGB tuning results instead of recomputing them every time.
 
-Still very early stages — currently sorting out data, problem setup, and what exactly to predict.
+![Hurricane Michael track](python_scripts/figures_michael_track/hurricane_michael_ibtracs_track_conus.gif)
 
-Next steps:
-
-* build a clean dataset (outages + weather)
-* get a simple baseline working
-* then try TFT and compare
-
-Main goal is a solid, reproducible pipeline rather than perfect results.
-
-Notes:
-* timeseries.pq is in gitignore since it's 300 MB in size
+That gave us a reproducible modeling workflow plus some nicer visual checks for the report. `timeseries.pq` stays in `.gitignore` because it is too large for the repo.
